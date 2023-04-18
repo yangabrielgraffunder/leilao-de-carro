@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Oldri Kanralahai Autos</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="site.css">
+ 
+</head>
+<body>
+	<img src="logo.png">
+
+		<header>
+
+	   <nav>
+		   <ul>
+			    <li> <a href="index.html" > Home </a></li>
+				<li> <a href="produtos.html"> Carros </a></li>
+				<li> <a href="pagina.html"> Contatos </a></li>
+		   </ul>
+	  </nav>
+ </header>
+ <main>
+	<h2> Cadastro Leilões</h2>
+	<form>
+		<label for="nomesobrenome"> Nome e Sobrenome</label>
+		<input type="text" id="nomesobrenome" class="input-padrao"required></input>
+		<label for="email">"Email </label>
+		<input type="email" id="email" class="input-padrao" required placeholder=seuemail@dominio.com">
+		<label form="telefone"> Telefone</label>
+		<input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxxx">
+		<label form="mensagem"> Mensagem</label>
+		<textarea cols="70" rows="10" id="mnsagem" class="input-padrao" required></textarea>
+
+		 
+
+		  <fieldset>
+		 	<legend>Como Prefere Ser Contatado Pelo Oldri KandralaRai</legend>
+		 	<label for="radio-email"> <input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+		 	<label for="radio-whatsapp"> <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> Whatsapp</label>
+		 	<label for="radio-telefone"> <input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+		 
+		  </fieldset>
+
+		   <fieldset>
+		   	<legend>Qual Carro Acha Mais A Sua Cara?</legend>
+		   	<select>
+		   		<option>DelRei</option>
+		   		<option>Belina</option>
+		   		<option>Monza</option>
+		   	</select>
+           </fieldset>
+
+        <label class="checkbox"> <input type="checkbox" checked>Leilão Online De Carros Do Ano -1852</label>
+        <input type="submit" value="Enviar Cadastro" class="enviar">
+	</form>
+	 <table>
+        <thead>
+          <tr>
+            <th>Carros Em Conta</th>
+            <th>Preços</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>DelReis</td>
+            <td>R$5000</td>
+          </tr>
+          <tr>
+            <td>Belinas</td>
+            <td>R$3500</td>
+          </tr>
+          <tr>
+            <td>Monzas</td>
+            <td>R$8000</td>
+          </tr>
+        </tbody>
+      </table>
+</main>
+ <footer>
+ 	<img src="logo2.png">
+      <p class="copyright">&copy; Oldri Kanralahai- 1852</p>
+    </footer>
+
+</body>
+</html>
